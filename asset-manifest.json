@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/movie_hub/static/css/main.2e0b8330.css",
-    "main.js": "/movie_hub/static/js/main.e71062af.js",
+    "main.js": "/movie_hub/static/js/main.b9d81dfc.js",
     "static/js/787.7c42db31.chunk.js": "/movie_hub/static/js/787.7c42db31.chunk.js",
     "static/media/PB.jpg": "/movie_hub/static/media/PB.dd46e2bbe095ec62c2ec.jpg",
     "static/media/Devdas.jpg": "/movie_hub/static/media/Devdas.3c2c9156d967acec71b7.jpg",
@@ -13,11 +13,11 @@
     "index.html": "/movie_hub/index.html",
     "static/media/search.svg": "/movie_hub/static/media/search.981b582ea232c3cb047eca919deaf9e8.svg",
     "main.2e0b8330.css.map": "/movie_hub/static/css/main.2e0b8330.css.map",
-    "main.e71062af.js.map": "/movie_hub/static/js/main.e71062af.js.map",
+    "main.b9d81dfc.js.map": "/movie_hub/static/js/main.b9d81dfc.js.map",
     "787.7c42db31.chunk.js.map": "/movie_hub/static/js/787.7c42db31.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e0b8330.css",
-    "static/js/main.e71062af.js"
+    "static/js/main.b9d81dfc.js"
   ]
 }
