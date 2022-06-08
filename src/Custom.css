@@ -1,0 +1,171 @@
+.footer{
+    width: 90%;
+    height: 400px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-left: 5%;
+}
+.fcard{
+    background-color: rgb(36, 56, 56);
+        border-radius: 10px;
+}
+.contact{
+    grid-column: 1;
+    background-color: rgb(36, 56, 56);
+}
+.cCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.links{
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 3rem;
+}
+
+.description{
+    grid-column: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icons{
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+}
+
+.icons :hover {
+    transform: scale(1.10);
+}
+
+.ff{
+    height: 460px;
+    width: 310px;
+    border-radius: 10px;
+}
+.homeCard{
+    transition: all 0.4s cubic-bezier(1.175, 1.885, 5, 1);
+}
+.homeCard :hover{
+    transform: scale(1.05, 1.05);
+}
+
+.dpimg{
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+}
+
+.name{
+    color: rgb(231, 231, 231);
+    font-size: 2.5rem;
+}
+
+.email{
+    color: rgb(231, 231, 231);
+    font-size: 1.8rem;
+}
+
+.tStack{
+    display: flex;
+    align-items: center;
+}
+
+@media  screen and (max-width: 600px){
+    .homeCard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 90%;
+    }
+    .name{
+        font-size: 1rem;
+    }
+    .email{
+        font-size: 1rem;
+    }
+    .inst{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+.sBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0 2rem;
+}
+
+/* ------------------------------------------- */
+.flipCard{
+    background-color: transparent;
+    width:auto;
+    height: 130px;
+    perspective: 100000px;
+    /* border: 2px solid red; */
+  }
+  
+  .flipCardInner{
+      position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flipCard:hover .flipCardInner{
+      transform: rotateY(180deg);
+  } 
+  
+  .flipCardFront {
+      position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flipCardFront{
+      background-color: rgba(165, 42, 42, 0);
+      color: aqua;
+  }
+  
+  .flipCardBack{
+      background-color: rgba(250, 235, 215, 0);
+      color: rgb(231, 231, 231);
+      transform: rotateY(180deg);
+  }
+  .flipCardBack{
+      position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
