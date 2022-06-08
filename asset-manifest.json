@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/movie_hub/static/css/main.2e0b8330.css",
+    "main.js": "/movie_hub/static/js/main.e71062af.js",
+    "static/js/787.7c42db31.chunk.js": "/movie_hub/static/js/787.7c42db31.chunk.js",
+    "static/media/PB.jpg": "/movie_hub/static/media/PB.dd46e2bbe095ec62c2ec.jpg",
+    "static/media/Devdas.jpg": "/movie_hub/static/media/Devdas.3c2c9156d967acec71b7.jpg",
+    "static/media/Vbm.jpg": "/movie_hub/static/media/Vbm.11c25e0ffb4cf845b05d.jpg",
+    "static/media/Tumbbad.jpg": "/movie_hub/static/media/Tumbbad.b80bee3ef2a8c974a744.jpg",
+    "static/media/Batman.jpg": "/movie_hub/static/media/Batman.e945a75f3c84941d74d6.jpg",
+    "static/media/DDLJ.jpg": "/movie_hub/static/media/DDLJ.ec6891ffafeb89b5af9c.jpg",
+    "static/media/Mr_Robot.jpg": "/movie_hub/static/media/Mr_Robot.9f9f5c0094e8a6a95702.jpg",
+    "index.html": "/movie_hub/index.html",
+    "static/media/search.svg": "/movie_hub/static/media/search.981b582ea232c3cb047eca919deaf9e8.svg",
+    "main.2e0b8330.css.map": "/movie_hub/static/css/main.2e0b8330.css.map",
+    "main.e71062af.js.map": "/movie_hub/static/js/main.e71062af.js.map",
+    "787.7c42db31.chunk.js.map": "/movie_hub/static/js/787.7c42db31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e0b8330.css",
+    "static/js/main.e71062af.js"
+  ]
+}
